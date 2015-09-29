@@ -5,12 +5,16 @@ module.exports = {
   },
   module: {
     loaders: [
-      {test: /.jsx?$/, loader: 'babel'}
+      {
+        test: /.jsx?$/,
+        loader: 'babel',
+        exclude: /node_modules/
+      }
     ]
   },
   resolve: {
 
     // makes webpack understand requires with .jsx extension as well as with no one at all
-    extensions: ['', '.js', '.jsx'] 
+    extensions: ['', '.js', '.jsx']
   }
 };
