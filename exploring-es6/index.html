@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hz</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.3.4/mocha.min.css">
+    </head>
+    <body>
+        <div id="mocha"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.3.4/mocha.min.js" charset="utf-8"></script>
+        <script src="https://npmcdn.com/expect/umd/expect.min.js"></script>
+        <script type="text/javascript">
+            mocha.setup('bdd');
+        </script>
+
+        <!-- <script src="compiled.js" charset="utf-8"></script> -->
+        <script src="src/ch04.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            mocha.run();
+        </script>
+    </body>
+</html>
