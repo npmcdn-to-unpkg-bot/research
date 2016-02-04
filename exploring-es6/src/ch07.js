@@ -1,7 +1,7 @@
 describe('Chapter 7. Symbols', () => {
 
-    it('should prove that symbol\' are primitives', () => {
-        expect(typeof Symbol()).toBe('symbol')
+    it('should prove that symbols are primitives', () => {
+        expect(typeof Symbol()).toBe('symbol');
     });
 
     it('should use symbol as object property', () => {
